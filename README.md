@@ -1,124 +1,116 @@
 <div align="center">
-  <br />
-    <a href="https://youtu.be/NiwawEe92Co" target="_blank">
-      <img src="public/readme/readme-hero-new.webp" alt="Project Banner">
-    </a>
-  <br />
+
+  <h1>📚 Bookified</h1>
+  <p><strong>Talk to your books. Powered by AI.</strong></p>
 
   <div>
-<img src="https://img.shields.io/badge/-Next.js_16-000000?style=for-the-badge&logo=Next.js&logoColor=white" />
-<img src="https://img.shields.io/badge/-ElevenLabs-FFFFFF?style=for-the-badge&logo=ElevenLabs&logoColor=black" />
-<img src="https://img.shields.io/badge/-Vapi-62F6B5?style=for-the-badge&logo=Vapi&logoColor=black" />
-<img src="https://img.shields.io/badge/-Clerk-6C47FF?style=for-the-badge&logo=Clerk&logoColor=white" /><br/>
-<img src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white" />
-<img src="https://img.shields.io/badge/-Typescript-3178C6?style=for-the-badge&logo=Typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/-Tailwind-06B6D4?style=for-the-badge&logo=Tailwind-CSS&logoColor=white" />
-<img src="https://img.shields.io/badge/-Shadcn/UI-000000?style=for-the-badge&logo=shadcnui&logoColor=white" />
-
+    <img src="https://img.shields.io/badge/-Next.js_16-000000?style=for-the-badge&logo=Next.js&logoColor=white" />
+    <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=Typescript&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=for-the-badge&logo=Tailwind-CSS&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Shadcn/UI-000000?style=for-the-badge&logo=shadcnui&logoColor=white" /><br/>
+    <img src="https://img.shields.io/badge/-Vapi-62F6B5?style=for-the-badge&logo=Vapi&logoColor=black" />
+    <img src="https://img.shields.io/badge/-ElevenLabs-FFFFFF?style=for-the-badge&logo=ElevenLabs&logoColor=black" />
+    <img src="https://img.shields.io/badge/-Clerk-6C47FF?style=for-the-badge&logo=Clerk&logoColor=white" />
+    <img src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white" />
   </div>
 
-  <h3 align="center">AI Book Companion | Vapi, ElevenLabs</h3>
-
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/watch?v=XUkNR-JfHwo" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+---
 
-1. ✨ [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Assets](#links)
-6. 🚀 [More](#more)
+## 📋 Table of Contents
 
-## 🚨 Tutorial
+1. [✨ Introduction](#introduction)
+2. [⚙️ Tech Stack](#tech-stack)
+3. [🔋 Features](#features)
+4. [🤸 Quick Start](#quick-start)
+5. [🔐 Environment Variables](#environment-variables)
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
-
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
-
-<a href="https://youtu.be/NiwawEe92Co" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+---
 
 ## <a name="introduction">✨ Introduction</a>
 
-Bookified is an AI-powered platform that lets you have real-time voice conversations with your books. Built with Next.js 16, Vapi, and MongoDB, it transforms PDFs into interactive entities using natural voice synthesis. Choose from custom ElevenLabs personas to chat with your library, request summaries, and view live transcripts—all wrapped in a sleek Shadcn UI with Clerk authentication. 
+**Bookified** is an AI-powered web application that transforms your PDF books into interactive, conversational companions. Instead of passively reading, you can upload any PDF and have a real-time, voice-driven conversation with it — asking questions, requesting summaries, or exploring ideas, all through natural speech.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
+The platform combines cutting-edge Voice AI (via Vapi), high-fidelity text-to-speech (via ElevenLabs), Retrieval-Augmented Generation (RAG) using Google Gemini embeddings, and a clean, modern UI — creating a unique reading experience unlike anything traditional.
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+Built with **Next.js 16**, **TypeScript**, **MongoDB**, **Clerk**, and **Tailwind CSS / Shadcn UI**, Bookified is a full-stack, production-ready application with secure authentication, cloud file storage, and scalable database architecture.
+
+---
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- **[Clerk](https://jsm.dev/books-clerk)** is a comprehensive user management and authentication platform. It provides secure, pre-built components for email and social logins, enabling seamless session management and protected routes with minimal configuration.
+| Technology | Role |
+|---|---|
+| **[Next.js 16](https://nextjs.org/docs)** | Full-stack React framework for UI, server-side rendering, and API routes |
+| **[TypeScript](https://www.typescriptlang.org/)** | Type-safe development across the entire codebase |
+| **[Tailwind CSS v4](https://tailwindcss.com/)** | Utility-first CSS framework for rapid, responsive styling |
+| **[Shadcn UI](https://ui.shadcn.com/)** | Accessible, composable component library built on Radix UI |
+| **[Clerk](https://clerk.com/)** | Authentication and user management (email + social login) |
+| **[Vapi](https://vapi.ai/)** | Real-time Voice AI platform for low-latency voice conversations |
+| **[ElevenLabs](https://elevenlabs.io/)** | Lifelike AI voice synthesis for audio persona previews |
+| **[Google Gemini](https://aistudio.google.com/)** | AI embeddings for semantic text understanding and RAG |
+| **[MongoDB + Mongoose](https://www.mongodb.com/)** | NoSQL database for storing books, users, and transcripts |
+| **[Vercel Blob](https://vercel.com/docs/storage/vercel-blob)** | Cloud storage for uploaded PDF files |
+| **[pdf.js (pdfjs-dist)](https://mozilla.github.io/pdf.js/)** | Client-side PDF text extraction |
+| **[React Hook Form + Zod](https://react-hook-form.com/)** | Form state management and schema validation |
 
-- **[CodeRabbit](https://jsm.dev/books-coderabbit)** is an AI-powered code review platform that provides contextual, line-by-line feedback on pull requests. It automates the review process by identifying bugs, suggesting optimizations, and ensuring coding standards are met, significantly reducing the manual effort for developers and improving code quality.
-
-- **[ElevenLabs](https://elevenlabs.io/docs)** is an advanced AI audio platform providing lifelike text-to-speech. It powers the voice previews in Bookified, allowing users to hear and select from a variety of natural-sounding AI personas before starting a conversation.
-
-- **[MongoDB](https://www.mongodb.com/docs/)** is a flexible, document-based NoSQL database designed for scalability and developer ease. Combined with Mongoose, it serves as the core storage for user libraries, book metadata, and conversation transcripts.
-
-- **[Next.js](https://nextjs.org/docs)** is a powerful React framework for building full-stack web applications. It handles the core application logic, server-side rendering, and API routes, enabling a fast and responsive interface for the Bookified platform.
-
-- **[Shadcn UI](https://ui.shadcn.com/)** is a collection of re-usable, accessible components built with Tailwind CSS and Radix UI. It allows for the creation of a clean, modular, and professional-grade user interface that is easy to customize and theme.
-
-- **[TypeScript](https://www.typescriptlang.org/)** is a superset of JavaScript that adds static typing, providing better tooling, code quality, and error detection. It ensures the application remains maintainable and robust as the codebase scales.
-
-- **[Vapi](https://jsm.dev/books-vapi)** is a specialized Voice AI platform that enables real-time, low-latency conversational audio. It serves as the primary engine for Bookified, allowing users to have seamless, back-and-forth verbal interactions with their uploaded content.
+---
 
 ## <a name="features">🔋 Features</a>
 
-👉 **PDF Upload & Ingestion**: Seamlessly upload PDF books with automated text extraction, intelligent chunking, and high-dimensional embeddings for precise context retrieval.
+- **📄 PDF Upload & Ingestion** — Upload any PDF book; the app automatically extracts text, chunks it, and generates vector embeddings for semantic retrieval.
 
-👉 **Voice-First Conversations**: Engage in natural, real-time voice dialogues with your uploaded books, allowing you to ask questions or explore complex concepts verbally via Vapi.
+- **🎙️ Voice Conversations** — Engage in real-time, back-and-forth voice dialogues with your uploaded books using natural speech, powered by Vapi.
 
-👉 **AI Voice Personas**: Choose from a variety of distinct AI personalities and hear instant high-fidelity previews powered by ElevenLabs to find the perfect reading companion.
+- **🤖 AI Voice Personas** — Browse and preview a variety of AI voice personas powered by ElevenLabs to find your perfect reading companion.
 
-👉 **Smart Summaries & Insights**: Quickly extract the essence of any chapter or request deep-dive summaries, making long-form content more accessible and digestible.
+- **🔍 Retrieval-Augmented Generation (RAG)** — Questions are answered using relevant context retrieved from the book's actual content via semantic vector search.
 
-👉 **Session Transcripts**: Keep a complete record of every vocal interaction with auto-generated text transcripts, ensuring you never lose a key insight from your discussions.
+- **📝 Session Transcripts** — Automatic text transcripts are generated for every voice conversation so you never lose a key insight.
 
-👉 **Library Management**: Effortlessly organize and search through your personal uploads or the global collection with a high-performance search interface.
+- **📚 Library Management** — Browse your personal uploads and a shared global library, with search functionality to quickly find books.
 
-👉 **Auth & Subscription**: Secure user access via email and social login, paired with a robust billing system to manage premium features and platform subscriptions.
+- **🔐 Secure Authentication** — User sign-up, sign-in, and session management handled via Clerk with support for email and social providers.
 
-And many more, including code architecture and reusability.
+- **☁️ Cloud File Storage** — PDFs are stored securely in Vercel Blob storage and linked to each user's profile.
+
+- **🌙 Dark Mode** — Full dark/light theme support via `next-themes`.
+
+---
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
-Follow these steps to set up the project locally on your machine.
+Follow these steps to set up and run Bookified locally.
 
-**Prerequisites**
+### Prerequisites
 
-Make sure you have the following installed on your machine:
+Make sure you have the following installed:
 
 - [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+- [Node.js](https://nodejs.org/en) (v18 or later recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
 
-**Cloning the Repository**
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/adrianhajdin/jsm_bookified.git
-cd jsm_bookified
+git clone https://github.com/Nmigdadi/Bookified.git
+cd bookified
 ```
 
-**Installation**
-
-Install the project dependencies using npm:
+### 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
-**Set Up Environment Variables**
+### 3. Configure Environment Variables
 
-Create a new file named `.env` in the root of your project and add the following content:
+Create a `.env` file in the root of the project and add the following variables (see the [Environment Variables](#environment-variables) section for details):
 
 ```env
 NODE_ENV='development'
-NEXT_PUBLIC_BASE_URL=
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
 
 # CLERK
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
@@ -135,41 +127,67 @@ BLOB_READ_WRITE_TOKEN=
 MONGODB_URI=
 
 # VAPI
+NEXT_PUBLIC_ASSISTANT_ID=
 NEXT_PUBLIC_VAPI_API_KEY=
 VAPI_SERVER_SECRET=
 
-# Google Gemini API for embeddings
+# GOOGLE GEMINI (for embeddings)
 GOOGLE_GEMINI_API_KEY=
 
 # ELEVENLABS
 ELEVENLABS_API_KEY=
 ```
 
-Replace the placeholder values with your real credentials. You can get these by signing up at: [**Clerk**](https://clerk.com), [**Vercel**](https://vercel.com), [**MongoDB**](https://www.mongodb.com), [**Vapi**](https://vapi.ai), [**Google AI Studio**](https://aistudio.google.com), [**ElevenLabs**](https://elevenlabs.io).
-
-**Running the Project**
+### 4. Run the Development Server
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
-## <a name="links">🔗 Assets</a>
+---
 
-Assets and snippets used in the project can be found in the **[video kit](https://jsmastery.com/video-kit/8127ec28-61db-4295-a85b-c649df6ee408)**.
+## <a name="environment-variables">🔐 Environment Variables</a>
 
-<a href="https://jsmastery.com/video-kit/8127ec28-61db-4295-a85b-c649df6ee408" target="_blank">
-  <img src="public/readme/readme-videokit.webp" alt="Video Kit Banner">
-</a>
+You'll need accounts and API keys from the following services:
 
-## <a name="more">🚀 More</a>
+| Variable | Description | Where to Get It |
+|---|---|---|
+| `NEXT_PUBLIC_BASE_URL` | The base URL of your app (e.g. `http://localhost:3000`) | Self-defined |
+| `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` | Clerk public key | [clerk.com](https://clerk.com) → Dashboard → API Keys |
+| `CLERK_SECRET_KEY` | Clerk secret key | [clerk.com](https://clerk.com) → Dashboard → API Keys |
+| `BLOB_READ_WRITE_TOKEN` | Vercel Blob storage token | [vercel.com](https://vercel.com) → Storage → Blob |
+| `MONGODB_URI` | MongoDB connection string | [mongodb.com](https://www.mongodb.com) → Atlas → Connect |
+| `NEXT_PUBLIC_ASSISTANT_ID` | Your Vapi assistant ID | [vapi.ai](https://vapi.ai) → Assistants |
+| `NEXT_PUBLIC_VAPI_API_KEY` | Vapi public API key | [vapi.ai](https://vapi.ai) → Account → API Keys |
+| `VAPI_SERVER_SECRET` | Vapi server-side secret for webhook validation | [vapi.ai](https://vapi.ai) → Account → API Keys |
+| `GOOGLE_GEMINI_API_KEY` | Google Gemini API key for generating embeddings | [aistudio.google.com](https://aistudio.google.com) → Get API Key |
+| `ELEVENLABS_API_KEY` | ElevenLabs API key for voice synthesis | [elevenlabs.io](https://elevenlabs.io) → Profile → API Key |
 
-**Advance your skills with Next.js Pro Course**
+> **Note:** Never commit your `.env` file to version control. It is already listed in `.gitignore`.
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
-detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+---
 
-<a href="https://jsm.dev/books-jsm" target="_blank">
-  <img src="public/readme/readme-jsmpro.webp" alt="Project Banner">
-</a>
+## 📁 Project Structure
+
+```
+bookified/
+├── app/                  # Next.js App Router (pages, layouts, API routes)
+│   ├── (root)/           # Main application pages
+│   ├── api/              # Server-side API routes (upload, Vapi webhooks, etc.)
+│   └── books/            # Book detail and conversation pages
+├── components/           # Reusable React components
+├── database/             # Mongoose models and database connection
+├── hooks/                # Custom React hooks
+├── lib/                  # Utility functions (Vapi, ElevenLabs, embeddings, etc.)
+├── public/               # Static assets
+├── types.d.ts            # Global TypeScript type definitions
+└── .env                  # Environment variables (not committed)
+```
+
+---
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
